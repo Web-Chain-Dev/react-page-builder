@@ -10,17 +10,17 @@ import { Footer } from "../components/Footer";
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "ZAAV G — Jewelry Born in Bali" },
+      { title: "ZaavTest" },
       {
         name: "description",
         content:
           "Handcrafted jewelry from Bali. Pieces made with meaning — worn every day, remembered in the moments that matter. Shipped worldwide.",
       },
-      { property: "og:title", content: "ZAAV G — Jewelry Born in Bali" },
+      { property: "og:title", content: "ZaavTest" },
       {
         property: "og:description",
         content:
-          "Handcrafted jewelry from Bali. Pieces made with meaning — worn every day, remembered in the moments that matter.",
+          "Handcrafted jewelry from Bali. Pieces made with meaning — worn every day, remembered in the moments that matter. Shipped worldwide.",
       },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },

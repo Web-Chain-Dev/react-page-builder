@@ -80,14 +80,18 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Lovable App" },
-      { name: "description", content: "Lovable Generated Project" },
+      { title: "ZaavTest" },
+      { name: "description", content: "Handcrafted jewelry from Bali. Pieces made with meaning — worn every day, remembered in the moments that matter. Shipped worldwide." },
       { name: "author", content: "Lovable" },
-      { property: "og:title", content: "Lovable App" },
-      { property: "og:description", content: "Lovable Generated Project" },
+      { property: "og:title", content: "ZaavTest" },
+      { property: "og:description", content: "Handcrafted jewelry from Bali. Pieces made with meaning — worn every day, remembered in the moments that matter. Shipped worldwide." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
       { name: "twitter:site", content: "@Lovable" },
+      { name: "twitter:title", content: "ZaavTest" },
+      { name: "twitter:description", content: "Handcrafted jewelry from Bali. Pieces made with meaning — worn every day, remembered in the moments that matter. Shipped worldwide." },
+      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/8ab276f4-85aa-4d1b-a296-16ba2afa71fc/id-preview-73156666--538f5cd0-106f-45e1-a90b-4837b44c5c46.lovable.app-1784766370675.png" },
+      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/8ab276f4-85aa-4d1b-a296-16ba2afa71fc/id-preview-73156666--538f5cd0-106f-45e1-a90b-4837b44c5c46.lovable.app-1784766370675.png" },
     ],
     links: [
       {
